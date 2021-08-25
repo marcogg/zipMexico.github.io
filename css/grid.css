@@ -1,0 +1,376 @@
+/* FILE STRUCTURE
+-Grid structure
+-Spacing
+
+
+*/
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: block;
+}
+
+.container-full {
+    margin: 0;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+/* GLOBAL GRID */
+
+.col-lg-1 {
+    width: 8.333333333333333%;
+}
+
+.col-lg-2 {
+    width: 16.66666666666667%;
+}
+
+.col-lg-3 {
+    width: 25%;
+}
+
+.col-lg-4 {
+    width: 33.33333333333333%;
+}
+
+.col-lg-5 {
+    width: 41.66666666666667%;
+}
+
+.col-lg-6 {
+    width: 50%;
+}
+
+.col-lg-7 {
+    width: 58.33333333333333%;
+}
+
+.col-lg-8 {
+    width: 66.66666666666666%;
+}
+
+.col-lg-9 {
+    width: 75%;
+}
+
+.col-lg-10 {
+    width: 83.33333333333333%;
+}
+
+.col-lg-11 {
+    width: 91.66666666666666%;
+}
+
+.col-lg-12 {
+    width: 100%;
+}
+
+
+/* END:GLOBAL GRID */
+
+
+/* ---------------MOBILE--------------- */
+
+@media screen and (max-width:768px) {
+    .col-1 {
+        width: 8.333333333333333%;
+    }
+    .col-2 {
+        width: 16.66666666666667%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33333333333333%;
+    }
+    .col-5 {
+        width: 41.66666666666667%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33333333333333%;
+    }
+    .col-8 {
+        width: 66.66666666666666%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33333333333333%;
+    }
+    .col-11 {
+        width: 91.66666666666666%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+    /* ------------FONTS----------- */
+    h1 {
+        font-size: 48px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: 32px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: 24px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h4 {
+        font-size: 24px;
+        font-family: 'sharpBook25';
+    }
+    h5 {
+        font-size: 20px;
+        font-family: 'sharpBook20';
+    }
+    h6 {
+        font-size: 18px;
+        font-family: 'sharpBook25';
+    }
+}
+
+
+/* --------------TABLETS---------------- */
+
+@media screen and (max-width:992px) {
+    .col-md-1 {
+        width: 8.333333333333333%;
+    }
+    .col-md-2 {
+        width: 16.66666666666667%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33333333333333%;
+    }
+    .col-md-5 {
+        width: 41.66666666666667%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33333333333333%;
+    }
+    .col-md-8 {
+        width: 66.66666666666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33333333333333%;
+    }
+    .col-md-11 {
+        width: 91.66666666666666%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    /* ------------FONTS----------- */
+    h1 {
+        font-size: 56px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: 36px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: 28px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h4 {
+        font-size: 26px;
+        font-family: 'sharpBook25';
+    }
+    h5 {
+        font-size: 20px;
+        font-family: 'sharpBook20';
+    }
+    h6 {
+        font-size: 18px;
+        font-family: 'sharpBook25';
+    }
+}
+
+
+/* --------------Desktop---------------- */
+
+@media screen and (min-width:993px) {
+    .col-lg-1 {
+        width: 8.333333333333333%;
+    }
+    .col-lg-2 {
+        width: 16.66666666666667%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33333333333333%;
+    }
+    .col-lg-5 {
+        width: 41.66666666666667%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33333333333333%;
+    }
+    .col-lg-8 {
+        width: 66.66666666666666%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.33333333333333%;
+    }
+    .col-lg-11 {
+        width: 91.66666666666666%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    /* -----------FONTS------------ */
+    h1 {
+        font-size: 64px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h2 {
+        font-size: 48px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h3 {
+        font-size: 36px;
+        font-family: 'cooper';
+        font-weight: lighter;
+    }
+    h4 {
+        font-size: 24px;
+        font-family: 'sharpBook25';
+    }
+    h5 {
+        font-size: 22px;
+        font-family: 'sharpBook20';
+    }
+    h6 {
+        font-size: 18px;
+        font-family: 'sharpBook25';
+    }
+}
+
+
+/* ----------------SPACING---------------- */
+
+
+/* PADDING X */
+
+.padX-1 {
+    padding-right: +1%;
+    padding-left: +1%;
+}
+
+.padX-2 {
+    padding-right: +2%;
+    padding-left: +2%;
+}
+
+.padX-3 {
+    padding-right: +3%;
+    padding-left: +3%;
+}
+
+.padX-4 {
+    padding-right: +4%;
+    padding-left: +4%;
+}
+
+.padX-5 {
+    padding-right: +5%;
+    padding-left: +5%;
+}
+
+
+/* PADDING Y */
+
+.padY-1 {
+    padding-top: +1%;
+    padding-bottom: +1%;
+}
+
+.padY-2 {
+    padding-top: +2%;
+    padding-bottom: +2%;
+}
+
+.padY-3 {
+    padding-top: +3%;
+    padding-bottom: +3%;
+}
+
+.padY-4 {
+    padding-top: +4%;
+    padding-bottom: +4%;
+}
+
+.padY-5 {
+    padding-top: +5%;
+    padding-bottom: +5%;
+}
+
+
+/* PADDING TOP */
+
+.padT-1 {
+    padding-top: +1%;
+}
+
+.padT-2 {
+    padding-top: +2%;
+}
+
+.padT-3 {
+    padding-top: +3%;
+}
+
+.padT-4 {
+    padding-top: +4%;
+}
+
+.padT-5 {
+    padding-top: +5%;
+}

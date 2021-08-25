@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'sharpBook20';
+    src: url(../fonts/SharpGroteskBook20.woff);
+}
+
+@font-face {
+    font-family: 'sharpBook25';
+    src: url(../fonts/SharpGroteskBook25.woff);
+}
+
+@font-face {
+    font-family: 'sharpLight25';
+    src: url(../fonts/SharpGroteskLight25.woff);
+}
+
+@font-face {
+    font-family: 'cooper';
+    src: url(../fonts/cooperl.woff);
+}
+
+body {
+    margin: 0;
+    font-family: 'sharpBook20', sans-serif;
+    color: #1A0826;
+    background-color: #fffffa;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #fffffa;
+}
+
+.button {
+    background-color: #411361;
+    padding: 2% 8%;
+    color: #fffffa;
+    border-radius: 8px;
+    font-weight: bolder;
+    margin: 15% 0;
+}
+
+.button:hover {
+    background-color: #53187c;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+.header {
+    padding: 4%;
+}
+
+.description {
+    text-align: center;
+    padding: 3% 5%;
+    background-color: #F3F3E0;
+}
+
+.conoce-mas .row {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.cardSteps {
+    background-color: #EDE6FF;
+    padding: 5%;
+    border: 1px solid #DDDDE3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    min-height: 350px;
+    width: 450px;
+    display: block;
+    margin: 5% auto;
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .cardSteps {
+        width: 100%;
+        margin: 15% auto;
+    }
+    .conoce-mas .container .row .col-12:first-child {
+        margin-top: 20%;
+    }
+}
+
+.cardSteps .icon {
+    max-width: 100px;
+    position: absolute;
+    top: calc(-15%);
+    left: calc(50% - 50px);
+    background-color: #fffffa;
+    border-radius: 50%;
+}
+
+.sin-intereses {
+    padding: 3% 7%;
+}
+
+.requisitos {
+    text-align: center;
+    margin-top: 7%;
+    padding: 0 10%;
+}
+
+.requisitos ul li {
+    list-style: none;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.requisitos ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+.requisitos ul li:before {
+    background-image: url('../img/requisitos.svg');
+    content: '';
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    position: relative;
+    top: 12px;
+}
+
+@media screen and (max-width:768px) {
+    .requisitos {
+        padding: 0 5%;
+    }
+    .requisitos ul li:before {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        top: 6px;
+    }
+}
+
+.faqs {
+    text-align: center;
+}
+
+.faqs .col-lg-6 {
+    display: block;
+    margin: auto;
+    background-image: url(../img/lines-faq.svg);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.optionFaq {
+    margin-bottom: 12%;
+    background-color: #fffffa;
+    padding: 2%;
+}
+
+.destacado {
+    background-color: #EDE6FF;
+    padding: 2% 5%;
+    font-weight: bolder;
+}
+
+footer {
+    margin-bottom: 5%;
+}
+
+
+/* ----------FONTS--------- */
+
+.text-center {
+    text-align: center;
+}
+
+.pLarge {
+    font-size: 18px;
+}
+
+.pMed {
+    font-size: 16px;
+}
+
+.pSmall {
+    font-size: 14px;
+}

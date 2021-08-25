@@ -71,10 +71,10 @@ a:visited {
     box-sizing: border-box;
     border-radius: 4px;
     text-align: center;
-    min-height: 350px;
-    width: 450px;
+    min-height: 380px;
+    width: calc(100% - 150px);
     display: block;
-    margin: 5% auto;
+    margin: 7% auto;
     position: relative;
 }
 
@@ -185,4 +185,14 @@ footer {
 
 .pSmall {
     font-size: 14px;
+}
+
+.text-footer {
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .text-footer {
+        text-align: center;
+    }
 }

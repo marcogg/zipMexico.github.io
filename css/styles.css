@@ -109,7 +109,7 @@ body {
     font-family: 'sharpBook20', sans-serif;
     color: #1A0826;
     background-color: #fffffa;
-    overflow-x: initial;
+    overflow-x: hidden !important;
 }
 
 body.boxed {
@@ -149,7 +149,7 @@ small {
 }
 
 .button.product {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .img-100 {
@@ -162,13 +162,13 @@ small {
 
 @media screen and (min-width:768px) {
     .overflow-carousel {
-        overflow-x: hidden !important;
+        overflow-x: initial !important;
     }
 }
 
 @media screen and (max-width:768px) {
     .overflow-carousel {
-        overflow-x: auto !important;
+        overflow-x: initial !important;
     }
 }
 

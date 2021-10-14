@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zip es un método de pago que te permite dividir tus compras en 4 pagos quincenales siempre sin intereses con tarjeta de débito o crédito. Mantén el control de tus finanzas y vive libremente.">
     <title>Zip | El método de pago que te permite comprar ahora y pagar despúes</title>
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
@@ -12,17 +13,22 @@
     <link rel="stylesheet" href="css/grid.css">
     <!-- favicon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
-<body>
+<body class="boxed">
     <header>
-        <div class="container header">
+        <div class="container header" data-aos="fade-up" data-aos-delay="300">
             <div class="row">
                 <div class="col-lg-7 col-12 padY-5">
-                    <img src="img/logo-zip.svg" width="100" class="logo">
+                    <a href="https://zip.co/es-mx"><img src="img/logo-zip.svg" width="100" class="logo"></a>
                     <h3>El método de pago que te permite <b>comprar ahora y pagar después</b></h3>
-                    <p>Difiere tus compras en 4 pagos quincenales <b>sin intereses</b></p>
-                    <a href="#conoce-mas" class="button cta">Conoce más</a>
+                    <p>Divide tus compras en 4 pagos quincenales <b>sin intereses</b></p>
+                    <a href="#conoce-mas" class="button cta mt-5">Conoce más</a>
                 </div>
                 <div class="col-lg-5 col-12">
                     <!-- PONER IMAGEN DEL MERCHANT AQUI -->
@@ -33,19 +39,104 @@
     </header>
     <main>
         <!-- BEGIN: DECRIPTION -->
-        <section class="description">
+        <section class="description" data-aos="fade-up" data-aos-delay="300">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>No esperes más para obtener lo que necesitas</h2>
-                        <p class="pLarge">Con ZIP divide tus compras en <b>4 pagos quincenales, siempre sin intereses.</b> De esta forma obtienes lo que necesitas y pagas después, sabiendo que con ZIP tú estás en control de tus finanzas.</p>
+                        <h2>Fácil, rápido y sin intereses</h2>
+                        <p class="pLarge">Con Zip divide tus compras en
+                            <span class="bg-text">4 pagos quincenales, siempre sin intereses,</span> utilizando tu <span class="sharpBold25">tarjeta de débito</span>. De esta forma obtienes lo que necesitas y pagas después, sabiendo que con ZIP tú estás
+                            en control de tus finanzas.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- END:DESCRIPTION -->
+        <!-- BEGIN: PRODUCTOS DESTACADOS -->
+        <section id="productos-destacados" data-aos="fade-up" data-aos-delay="300">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="sharpBook20 text-center">Productos destacados</h3>
+                    </div>
+                    <div class="row justify-content-around">
+                        <!-- Producto 1 -->
+                        <div class="col-lg-3 col-6">
+                            <div class="product-link">
+                                <img src="img/productos/60772fc858fe0_sart-03jpg.webp" class="img-product">
+                                <p class="product-description">Juego de Sartenes Stone Antiadherentes</p>
+                                <p class="product-price">$1,599 MXN</p>
+                                <p class="zip-price">Paga hoy: <span>$399.75</span><br>
+                                    <small>y el resto en 3 quincenas</small></p>
+                                <a href="https://www.claroshop.com/producto/918221/juego-sartenes-stone-antiadherentes-tefal-zafiro-flavor-pan/" class="button product">Comprar ahora</a>
+                            </div>
+
+                        </div>
+                        <!-- Producto 2 -->
+                        <div class="col-lg-3 col-6">
+                            <div class="product-link">
+                                <img src="img/productos/611eab8304ec8_lenovojpg.webp" class="img-product">
+                                <p class="product-description">Audifonos Lenovo QT83 Bluetooth 5.0 HQ Negros</p>
+                                <p class="product-price">$459 MXN</p>
+                                <p class="zip-price">Paga hoy: <span>$114.75</span><br>
+                                    <small>y el resto en 3 quincenas</small></p>
+                                <a href="https://www.claroshop.com/producto/13955299/audifonos-lenovo-qt83-bluetooth-5-0-hq-negros/" class="button product">Comprar ahora</a>
+                            </div>
+
+                        </div>
+                        <!-- Producto 3 -->
+                        <div class="col-lg-3 col-6">
+                            <div class="product-link">
+                                <img src="img/productos/tenis-mujer.webp" class="img-product">
+                                <p class="product-description">Tenis Dama Oferta <br>Shoetopia - 2100</p>
+                                <p class="product-price">$449 MXN</p>
+                                <p class="zip-price">Paga hoy: <span>$112.25</span><br>
+                                    <small>y el resto en 3 quincenas</small></p>
+                                <a href="https://www.claroshop.com/producto/14411761/tenis-dama-oferta-shoetopia-2100/" class="button product">Comprar ahora</a>
+                            </div>
+                        </div>
+                        <!-- Producto 4 -->
+                        <div class="col-lg-3 col-6">
+                            <div class="product-link">
+                                <img src="img/productos/guess-woman.webp" class="img-product">
+                                <p class="product-description">Fragancia Guess Woman 75 ml</p>
+                                <p class="product-price">$670 MXN</p>
+                                <p class="zip-price">Paga hoy: <span>$167.50*</span><br>
+                                    <small>y el resto en 3 quincenas</small></p>
+                                <a href="https://www.claroshop.com/producto/13376366/guess-woman-75ml/" class="button product">Comprar ahora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: PRODUCTOS DESTACADOS -->
+        <!-- BEGIN: PROMOCIÓN VIGENTE -->
+        <section id="promocion" class="m-5 p-5" data-aos="fade-up" data-aos-delay="300">
+            <div class="container">
+                <div class="row">
+                    <!-- Banner promoción -->
+                    <div class="col-lg-6 col-12">
+                        <div class="padX-2">
+                            <img src="img/banner-descuento-cashback.jpg" alt="20% de descuento en tu último pago" class="img-100">
+                        </div>
+
+                    </div>
+                    <!-- Información adicional -->
+                    <div class="col-lg-6 col-12">
+                        <div class="padX-5">
+                            <h3>¿De verdad no hay intereses ni comisiones adicionales?</h3>
+                            <p><b>No.</b> A diferencia de los métodos tradicionales de pago como líneas o tarjetas de crédito, <b>zip no te cobrará intereses nunca.</b> Sabemos que los imprevistos pasan y podrías atrasarte en un pago, no queremos que tu
+                                deuda siga creciendo y después sea más retador pagarla, por eso no te cobramos intereses</p>
+                            <a href="https://customer.mx.zip.co/es-MX/login" class="button cta">Crear mi cuenta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END: PROMOCIÓN VIGENTE -->
         <!-- BEGIN: CONOCE MAS -->
-        <section id="conoce-mas" class="conoce-mas padY-5">
+        <section id="conoce-mas" class="conoce-mas padY-5" data-aos="fade-up" data-aos-delay="300">
             <div class="container padX-5">
                 <div class="row">
                     <!-- PASO 1 -->
@@ -53,7 +144,7 @@
                         <div class="cardSteps">
                             <img src="img/paso1-compra-en-los-comercios-afiliados.svg" alt="Paso 1" class="icon">
                             <h4>Paso 1</h4>
-                            <h5>Compra en los comercios afiliados</h5>
+                            <h5>Elige lo que más te guste</h5>
                             <p>Al llegar al checkout verás el botón de Zip como método de pago</p>
                         </div>
                     </div>
@@ -88,25 +179,10 @@
             </div>
         </section>
         <!-- END: CONOCE MÁS -->
-        <!-- BEGIN: SIN INTERESES -->
-        <section>
-            <div class="container sin-intereses">
-                <div class="row">
-                    <div class="col-lg-6 col-12">
-                        <h3>¿De verdad no hay intereses ni comisiones adicionales?</h3>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <p><b>No.</b> A diferencia de los métodos tradicionales de pago como líneas o tarjetas de crédito, <b>zip no te cobrará intereses nunca.</b> Sabemos que los imprevistos pasan y podrías atrasarte en un pago, no queremos que tu deuda
-                            siga creciendo y después sea más retador pagarla, por eso no te cobramos intereses</p>
-                        <a href="https://customer.mx.zip.co/es-MX/login" class="button cta">Crear mi cuenta</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END: SIN INTERESES -->
+
         <!-- BEGIN: REQUISITOS -->
         <section>
-            <div class="container requisitos" id="requisitos">
+            <div class="container requisitos" id="requisitos" data-aos="fade-up" data-aos-delay="300">
                 <div class="row">
                     <div class="col-lg-12 col-12">
                         <h2>¿Qué necesito para pagar con Zip?</h2>
@@ -127,7 +203,7 @@
         </section>
         <!-- END: REQUISITOS -->
         <!-- BEGIN:FAQ -->
-        <section>
+        <section data-aos="fade-up" data-aos-delay="500">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -184,6 +260,10 @@
             </div>
         </div>
     </footer>
+    <!-- AOS INITIALIZE -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

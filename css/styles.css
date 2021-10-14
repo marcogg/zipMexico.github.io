@@ -1,21 +1,92 @@
 @font-face {
     font-family: 'sharpBook20';
     src: url(../fonts/SharpGroteskBook20.woff);
+    mso-font-alt: 'Arial';
 }
 
 @font-face {
     font-family: 'sharpBook25';
     src: url(../fonts/SharpGroteskBook25.woff);
+    mso-font-alt: 'Arial';
 }
 
 @font-face {
-    font-family: 'sharpLight25';
+    font-family: 'sharpLight25', 'Arial';
     src: url(../fonts/SharpGroteskLight25.woff);
 }
 
 @font-face {
     font-family: 'cooper';
     src: url(../fonts/cooperl.woff);
+    mso-font-alt: 'Georgia';
+}
+
+@font-face {
+    font-family: 'sharpBold20';
+    src: url(../fonts/SharpGroteskSmBold20.woff);
+}
+
+@font-face {
+    font-family: 'sharpBold25';
+    src: url(../fonts/SharpGroteskSmBold25.woff);
+}
+
+
+/* BEGIN: TYPEFACE */
+
+.sharpLight25 {
+    font-family: 'sharpLight25';
+}
+
+.sharpBook25 {
+    font-family: 'sharpBook25';
+}
+
+.sharpBook20 {
+    font-family: 'sharpBook20';
+}
+
+.sharpBold25 {
+    font-family: 'sharpBold25';
+}
+
+
+/* END: TYPEFACE */
+
+.img-product {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.product-link {
+    padding: 12% 8%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.product-link:hover {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, .15);
+}
+
+.product-price {
+    font-family: 'sharpBook25';
+}
+
+.zip-price {
+    font-family: 'sharpBook20';
+    color: #1a0826 !important;
+}
+
+.zip-price span {
+    font-family: 'sharpBold20';
+    color: #8364bf;
+}
+
+@media screen and (max-width:768px) {
+    .zip-price {
+        font-size: 14px;
+    }
 }
 
 body {
@@ -25,11 +96,22 @@ body {
     background-color: #fffffa;
 }
 
+body.boxed {
+    max-width: 1100px;
+    display: block;
+    margin: auto;
+}
+
 a,
 a:hover,
 a:visited {
     text-decoration: none;
     color: #fffffa;
+}
+
+small {
+    font-size: 12px;
+    color: #8364bf;
 }
 
 .button {
@@ -45,6 +127,10 @@ a:visited {
     background-color: #53187c;
 }
 
+.button.product {
+    font-size: 12px;
+}
+
 .img-100 {
     width: 100%;
 }
@@ -56,7 +142,20 @@ a:visited {
 .description {
     text-align: center;
     padding: 3% 5%;
-    background-color: #F3F3E0;
+    background-color: #EDE6FF;
+    line-height: 1.75rem;
+}
+
+.bg-text {
+    display: inline-block;
+    background-color: #AA8FFF;
+    padding: 0.3% 0.5%;
+    font-family: 'sharpBold25';
+    transform: skew(7deg);
+}
+
+.bg-text span {
+    transform: skew(0deg) !important;
 }
 
 .conoce-mas .row {
@@ -65,9 +164,8 @@ a:visited {
 }
 
 .cardSteps {
-    background-color: #EDE6FF;
+    background-color: #e5e4e2;
     padding: 5%;
-    border: 1px solid #DDDDE3;
     box-sizing: border-box;
     border-radius: 4px;
     text-align: center;

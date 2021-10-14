@@ -31,6 +31,20 @@
     src: url(../fonts/SharpGroteskSmBold25.woff);
 }
 
+@font-face {
+    font-family: "Sharp Grotesk Book";
+    src: local("Sharp Grotesk Book"), local("SharpGroteskBook"), url("../fonts/SharpGroteskBook.woff2") format("woff2"), url("../fonts/SharpGroteskBook.woff") format("woff"), url("../fonts/SharpGroteskBook.otf") format("opentype"), url("../fonts/SharpGroteskBook.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sharp Grotesk Medium";
+    src: local("Sharp Grotesk Medium"), local("SharpGroteskMedium"), url("../fonts/SharpGroteskMedium.woff2") format("woff2"), url("../fonts/SharpGroteskMedium.woff") format("woff"), url("../fonts/SharpGroteskMedium.otf") format("opentype"), url("../fonts/SharpGroteskMedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
 
 /* BEGIN: TYPEFACE */
 
@@ -60,9 +74,10 @@
 }
 
 .product-link {
-    padding: 12% 8%;
+    padding: 10% 8%;
     text-align: center;
     border-radius: 20px;
+    margin: 20px 0;
 }
 
 .product-link:hover {
@@ -94,10 +109,11 @@ body {
     font-family: 'sharpBook20', sans-serif;
     color: #1A0826;
     background-color: #fffffa;
+    overflow-x: initial;
 }
 
 body.boxed {
-    max-width: 1100px;
+    max-width: 1200px;
     display: block;
     margin: auto;
 }
@@ -112,6 +128,11 @@ a:visited {
 small {
     font-size: 12px;
     color: #8364bf;
+}
+
+.bg-fearless {
+    background-color: #c9b3ff;
+    width: 100% !important;
 }
 
 .button {
@@ -137,6 +158,18 @@ small {
 
 .header {
     padding: 4%;
+}
+
+@media screen and (min-width:768px) {
+    .overflow-carousel {
+        overflow-x: hidden !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .overflow-carousel {
+        overflow-x: auto !important;
+    }
 }
 
 .description {
@@ -174,6 +207,18 @@ small {
     display: block;
     margin: 7% auto;
     position: relative;
+}
+
+.producto-promocion .product-link {
+    text-align: center;
+}
+
+.producto-promocion .product-link:hover {
+    box-shadow: none;
+}
+
+.producto-promocion .product-link img {
+    width: 200px;
 }
 
 @media screen and (max-width:768px) {
@@ -292,5 +337,145 @@ footer {
 @media screen and (max-width:768px) {
     .text-footer {
         text-align: center;
+    }
+}
+
+
+/* LANDING ZIP STYLES */
+
+@media only screen and (min-width: 768px) {
+    .zip-landing-page h2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .zip-landing-page h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .zip-landing-page p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 18px 0;
+    }
+    .zip-landing-page p.p-available-font {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .zip-landing-page img.banner_desktop {
+        margin-bottom: 96px;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box {
+        margin: 40px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box img {
+        height: 80px;
+        margin-right: 24px;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box>div {
+        margin-right: 24px;
+        flex: 1 1 0px;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box>div:last-child {
+        margin-right: 0;
+    }
+    .zip-landing-page .eligibility .zip-flex-box {
+        margin: 40px 0 0 0;
+        display: flex;
+    }
+    .zip-landing-page .eligibility .zip-flex-box>div {
+        margin-right: 24px;
+        flex: 1 1 0px;
+        padding: 32px;
+    }
+    .zip-landing-page .eligibility .zip-flex-box>div>img {
+        height: 32px;
+        width: 32px;
+    }
+    .zip-landing-page .eligibility .zip-flex-box>div:last-child {
+        margin-right: 0;
+    }
+    .zip-landing-page section.customer-service {
+        border-radius: 4px;
+        padding: 40px;
+    }
+    .zip-landing-page section.customer-service h2 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zip-landing-page h2 {
+        font-size: 24px;
+        line-height: calc((24px / 32px) * 50);
+        margin-bottom: calc((24px / 32px) * 16);
+    }
+    .zip-landing-page h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .zip-landing-page p {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 18px 0;
+    }
+    .zip-landing-page p.p-available-font {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .zip-landing-page img.banner_desktop {
+        margin-bottom: 24px;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box {
+        display: block;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box>div {
+        margin-right: 0px;
+    }
+    .zip-landing-page .how-zip-works .zip-flex-box img {
+        height: 60px;
+        margin-right: 18px;
+    }
+    .zip-landing-page .eligibility .zip-flex-box {
+        margin: 40px 0 0 0;
+        display: block;
+    }
+    .zip-landing-page .eligibility .zip-flex-box>div {
+        margin-right: 0px;
+        margin-bottom: 24px;
+        padding: 24px;
+    }
+    .zip-landing-page .eligibility .zip-flex-box>div>img {
+        height: 32px;
+        width: 32px;
+    }
+    .zip-landing-page section.customer-service {
+        border-radius: 0px;
+        padding: 30px;
+    }
+    .zip-landing-page section.customer-service h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .zip-landing-page img.banner_desktop {
+        display: none;
+    }
+    .zip-landing-page img.banner_mobile {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .zip-landing-page img.banner_desktop {
+        display: block;
+    }
+    .zip-landing-page img.banner_mobile {
+        display: none;
     }
 }

@@ -277,17 +277,17 @@
     }
     /* -----------FONTS------------ */
     h1 {
-        font-size: 64px;
+        font-size: 60px;
         font-family: 'cooper';
         font-weight: lighter;
     }
     h2 {
-        font-size: 48px;
+        font-size: 36px;
         font-family: 'cooper';
         font-weight: lighter;
     }
     h3 {
-        font-size: 36px;
+        font-size: 24px;
         font-family: 'cooper';
         font-weight: lighter;
     }

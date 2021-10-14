@@ -17,16 +17,19 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- AOS JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="lib/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel/dist/assets/owl.theme.default.min.css">
 
 </head>
 
 <body class="boxed">
-    <header>
+    <header class="bg-fearless">
         <div class="container header" data-aos="fade-up" data-aos-delay="300">
             <div class="row">
                 <div class="col-lg-7 col-12 padY-5">
                     <a href="https://zip.co/es-mx"><img src="img/logo-zip.svg" width="100" class="logo"></a>
-                    <h3>El método de pago que te permite <b>comprar ahora y pagar después</b></h3>
+                    <h2>El método de pago que te permite <b>comprar ahora y pagar después</b></h2>
                     <p>Divide tus compras en 4 pagos quincenales <b>sin intereses</b></p>
                     <a href="#conoce-mas" class="button cta mt-5">Conoce más</a>
                 </div>
@@ -59,53 +62,59 @@
                     <div class="col-lg-12">
                         <h3 class="sharpBook20 text-center">Productos destacados</h3>
                     </div>
-                    <div class="row justify-content-around">
-                        <!-- Producto 1 -->
-                        <div class="col-lg-3 col-6">
-                            <div class="product-link">
-                                <img src="img/productos/60772fc858fe0_sart-03jpg.webp" class="img-product">
-                                <p class="product-description">Juego de Sartenes Stone Antiadherentes</p>
-                                <p class="product-price">$1,599 MXN</p>
-                                <p class="zip-price">Paga hoy: <span>$399.75</span><br>
-                                    <small>y el resto en 3 quincenas</small></p>
-                                <a href="https://www.claroshop.com/producto/918221/juego-sartenes-stone-antiadherentes-tefal-zafiro-flavor-pan/" class="button product">Comprar ahora</a>
-                            </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-12">
+                            <!-- Owl Carousel -->
+                            <div class="owl-carousel owl-theme overflow-carousel" style="width: 1000px; padding: 0 40px 0 40px;">
+                                <!-- Producto 1 -->
+                                <div class="item col-12">
+                                    <div class="product-link">
+                                        <img src="img/productos/60772fc858fe0_sart-03jpg.webp" class="img-product">
+                                        <p class="product-description">Juego de Sartenes Stone Antiadherentes</p>
+                                        <p class="product-price">$1,599 MXN</p>
+                                        <p class="zip-price">Paga hoy: <span>$399.75</span><br>
+                                            <small>y el resto en 3 quincenas</small></p>
+                                        <a href="https://www.claroshop.com/producto/918221/juego-sartenes-stone-antiadherentes-tefal-zafiro-flavor-pan/" class="button product">Comprar ahora</a>
+                                    </div>
 
-                        </div>
-                        <!-- Producto 2 -->
-                        <div class="col-lg-3 col-6">
-                            <div class="product-link">
-                                <img src="img/productos/611eab8304ec8_lenovojpg.webp" class="img-product">
-                                <p class="product-description">Audifonos Lenovo QT83 Bluetooth 5.0 HQ Negros</p>
-                                <p class="product-price">$459 MXN</p>
-                                <p class="zip-price">Paga hoy: <span>$114.75</span><br>
-                                    <small>y el resto en 3 quincenas</small></p>
-                                <a href="https://www.claroshop.com/producto/13955299/audifonos-lenovo-qt83-bluetooth-5-0-hq-negros/" class="button product">Comprar ahora</a>
-                            </div>
+                                </div>
+                                <!-- Producto 2 -->
+                                <div class="item col-12">
+                                    <div class="product-link">
+                                        <img src="img/productos/611eab8304ec8_lenovojpg.webp" class="img-product">
+                                        <p class="product-description">Audifonos Lenovo QT83 Bluetooth 5.0 HQ Negros</p>
+                                        <p class="product-price">$459 MXN</p>
+                                        <p class="zip-price">Paga hoy: <span>$114.75</span><br>
+                                            <small>y el resto en 3 quincenas</small></p>
+                                        <a href="https://www.claroshop.com/producto/13955299/audifonos-lenovo-qt83-bluetooth-5-0-hq-negros/" class="button product">Comprar ahora</a>
+                                    </div>
 
-                        </div>
-                        <!-- Producto 3 -->
-                        <div class="col-lg-3 col-6">
-                            <div class="product-link">
-                                <img src="img/productos/tenis-mujer.webp" class="img-product">
-                                <p class="product-description">Tenis Dama Oferta <br>Shoetopia - 2100</p>
-                                <p class="product-price">$449 MXN</p>
-                                <p class="zip-price">Paga hoy: <span>$112.25</span><br>
-                                    <small>y el resto en 3 quincenas</small></p>
-                                <a href="https://www.claroshop.com/producto/14411761/tenis-dama-oferta-shoetopia-2100/" class="button product">Comprar ahora</a>
+                                </div>
+                                <!-- Producto 3 -->
+                                <div class="item col-12">
+                                    <div class="product-link">
+                                        <img src="img/productos/tenis-mujer.webp" class="img-product">
+                                        <p class="product-description">Tenis Dama Oferta <br>Shoetopia - 2100</p>
+                                        <p class="product-price">$449 MXN</p>
+                                        <p class="zip-price">Paga hoy: <span>$112.25</span><br>
+                                            <small>y el resto en 3 quincenas</small></p>
+                                        <a href="https://www.claroshop.com/producto/14411761/tenis-dama-oferta-shoetopia-2100/" class="button product">Comprar ahora</a>
+                                    </div>
+                                </div>
+                                <!-- Producto 4 -->
+                                <div class="item col-12">
+                                    <div class="product-link">
+                                        <img src="img/productos/guess-woman.webp" class="img-product">
+                                        <p class="product-description">Fragancia Guess Woman 75 ml</p>
+                                        <p class="product-price">$670 MXN</p>
+                                        <p class="zip-price">Paga hoy: <span>$167.50*</span><br>
+                                            <small>y el resto en 3 quincenas</small></p>
+                                        <a href="https://www.claroshop.com/producto/13376366/guess-woman-75ml/" class="button product">Comprar ahora</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <!-- Producto 4 -->
-                        <div class="col-lg-3 col-6">
-                            <div class="product-link">
-                                <img src="img/productos/guess-woman.webp" class="img-product">
-                                <p class="product-description">Fragancia Guess Woman 75 ml</p>
-                                <p class="product-price">$670 MXN</p>
-                                <p class="zip-price">Paga hoy: <span>$167.50*</span><br>
-                                    <small>y el resto en 3 quincenas</small></p>
-                                <a href="https://www.claroshop.com/producto/13376366/guess-woman-75ml/" class="button product">Comprar ahora</a>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -123,12 +132,14 @@
 
                     </div>
                     <!-- Información adicional -->
-                    <div class="col-lg-6 col-12">
-                        <div class="padX-5">
-                            <h3>¿De verdad no hay intereses ni comisiones adicionales?</h3>
-                            <p><b>No.</b> A diferencia de los métodos tradicionales de pago como líneas o tarjetas de crédito, <b>zip no te cobrará intereses nunca.</b> Sabemos que los imprevistos pasan y podrías atrasarte en un pago, no queremos que tu
-                                deuda siga creciendo y después sea más retador pagarla, por eso no te cobramos intereses</p>
-                            <a href="https://customer.mx.zip.co/es-MX/login" class="button cta">Crear mi cuenta</a>
+                    <div class="col-lg-6 col-12 producto-promocion">
+                        <div class="product-link">
+                            <img src="img/productos/60772fc858fe0_sart-03jpg.webp" class="img-product">
+                            <p class="product-description">Juego de Sartenes Stone Antiadherentes</p>
+                            <p class="product-price">$1,599 MXN</p>
+                            <p class="zip-price">Paga hoy: <span>$399.75</span><br>
+                                <small>y el resto en 3 quincenas</small></p>
+                            <a href="https://www.claroshop.com/producto/918221/juego-sartenes-stone-antiadherentes-tefal-zafiro-flavor-pan/" class="button product">Comprar ahora</a>
                         </div>
                     </div>
                 </div>
@@ -136,107 +147,323 @@
         </section>
         <!-- END: PROMOCIÓN VIGENTE -->
         <!-- BEGIN: CONOCE MAS -->
-        <section id="conoce-mas" class="conoce-mas padY-5" data-aos="fade-up" data-aos-delay="300">
-            <div class="container padX-5">
-                <div class="row">
-                    <!-- PASO 1 -->
-                    <div class="col-lg-6 col-12">
-                        <div class="cardSteps">
-                            <img src="img/paso1-compra-en-los-comercios-afiliados.svg" alt="Paso 1" class="icon">
-                            <h4>Paso 1</h4>
-                            <h5>Elige lo que más te guste</h5>
-                            <p>Al llegar al checkout verás el botón de Zip como método de pago</p>
-                        </div>
-                    </div>
-                    <!-- PASO 2 -->
-                    <div class="col-lg-6 col-12">
-                        <div class="cardSteps">
-                            <img src="img/paso2-registrate-con-nosotros.svg" alt="Paso 2" class="icon">
-                            <h4>Paso 2</h4>
-                            <h5>Regístrate con nosotros</h5>
-                            <p>Solo necesitamos que ingreses algunos datos como tu nombre, dirección, lugar y fecha de nacimiento.</p>
-                        </div>
-                    </div>
-                    <!-- PASO 3 -->
-                    <div class="col-lg-6 col-12">
-                        <div class="cardSteps">
-                            <img src="img/paso3-conoce-la-fecha-de-tus-pagos.svg" alt="Paso 3" class="icon">
-                            <h4>Paso 3</h4>
-                            <h5>Conoce la fecha de tus 4 pagos</h5>
-                            <p>Al concluir tu registro te dejaremos saber la fecha de tus pagos, si estás de acuerdo, Zip cobrará el primero de la tarjeta que especificaste en pasos previos y el resto en 3 quincenas.</p>
-                        </div>
-                    </div>
-                    <!-- PASO 4 -->
-                    <div class="col-lg-6 col-12">
-                        <div class="cardSteps">
-                            <img src="img/paso4-obten-lo-que-quieres.svg" alt="Paso 4" class="icon">
-                            <h4>Paso 4</h4>
-                            <h5>Obtén lo que quieres</h5>
-                            <p>En cuanto sea verificado el primer pago, tus productos serán procesados para su envío.</p>
+        <section id="conoce-mas" class="zip-landing-page how-zip-works padY-5 padX-3 conoce-mas" style="position: relative; margin: 0 auto; margin-bottom: 30px" data-aos="fade-up" data-aos-delay="300">
+            <h2 style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.4px;
+        margin: 0 0 16px 0;
+      ">
+                ¿Cómo funciona Zip?
+            </h2>
+            <div class="zip-flex-box row">
+                <div class="col-lg-4 col-12">
+                    <div style="display: flex; margin-bottom: 24px">
+                        <img alt="" src="data:image/svg+xml,%3Csvg width='83' height='80' viewBox='0 0 83 80' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M66.669 30.5986C66.669 27.4773 63.8795 24.9474 60.4381 24.9474H46.0788C42.6375 24.9474 39.8493 27.4773 39.8493 30.5986L38.2781 43.8523H28.4854C25.6185 43.8523 23.2958 45.9599 23.2958 48.5592L21.5647 63.152C21.5647 65.7527 23.8886 67.8602 26.7542 67.8602H42.1758C45.0427 67.8602 47.3654 65.7527 47.3654 63.152L46.2532 53.7684H62.5142C65.9555 53.7684 68.745 51.2386 68.745 48.1173L66.669 30.5986Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.4278 53.1178H4.72554C4.0016 53.1178 3.41406 52.5315 3.41406 51.8063C3.41406 51.0811 4.0016 50.4948 4.72554 50.4948h20.4278C11.1531 50.4948 11.7393 51.0811 11.7393 51.8063C11.7393 52.5315 11.1531 53.1178 10.4278 53.1178Z' fill='%23EDE6FF'/%3E%3Cmask id='mask0' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='42' y='77' width='10' height='3'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M42.7419 77.0816H51.0672V79.7041H42.7419V77.0816Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M49.7557 79.7045H44.0534C43.3295 79.7045 42.7419 79.1183 42.7419 78.393C42.7419 77.6678 43.3295 77.0816 44.0534 77.0816H49.7557C50.481 77.0816 51.0672 77.6678 51.0672 78.393C51.0672 79.1183 50.481 79.7045 49.7557 79.7045Z' fill='%23EDE6FF'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.21217 57.5478H2.51118C1.78725 57.5478 1.19971 56.9616 1.19971 56.2363C1.19971 55.5111 1.78725 54.9249 2.51118 54.9249H8.21217C8.93741 54.9249 9.52364 55.5111 9.52364 56.2363C9.52364 56.9616 8.93741 57.5478 8.21217 57.5478Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M80.7279 3.48656H78.5534V1.31213C78.5534 0.586886 77.9672 0.000656128 77.242 0.000656128C76.5167 0.000656128 75.9305 0.586886 75.9305 1.31213V3.48656H73.7561C73.0308 3.48656 72.4446 4.07279 72.4446 4.79803C72.4446 5.52328 73.0308 6.10951 73.7561 6.10951H75.9305V8.28262C75.9305 9.00787 76.5167 9.5941 77.242 9.5941C77.9672 9.5941 78.5534 9.00787 78.5534 8.28262V6.10951H80.7279C81.4531 6.10951 82.0393 5.52328 82.0393 4.79803C82.0393 4.07279 81.4531 3.48656 80.7279 3.48656Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M45.6791 64.6776H37.5217C36.7978 64.6776 36.2103 64.0914 36.2103 63.3662C36.2103 62.6409 36.7978 62.0547 37.5217 62.0547H45.6791C47.7906 62.0547 49.5152 60.5688 49.5572 58.7288L47.8378 44.2199C47.8313 44.1688 47.8286 44.1163 47.8286 44.0652C47.8286 42.1924 46.0883 40.6685 43.9506 40.6685H31.9886C29.8496 40.6685 28.1106 42.1924 28.1106 44.0652C28.1106 44.1163 28.108 44.1675 28.1014 44.2186L26.3821 58.7288C26.424 60.5688 28.1473 62.0547 30.2588 62.0547C30.984 62.0547 31.5703 62.6409 31.5703 63.3662C31.5703 64.0914 30.984 64.6776 30.2588 64.6776C26.6745 64.6776 23.7578 61.9773 23.7578 58.658C23.7578 58.6068 23.7604 58.5557 23.767 58.5045L25.4876 43.9839C25.5362 40.7026 28.4332 38.0455 31.9886 38.0455H43.9506C47.506 38.0455 50.4031 40.7026 50.4516 43.9839L52.1722 58.5032C52.1788 58.5544 52.1814 58.6068 52.1814 58.658C52.1814 61.9773 49.2634 64.6776 45.6791 64.6776Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M44.4727 39.9133C43.7475 39.9133 43.1613 39.3271 43.1613 38.6018C43.1613 35.3546 40.8321 32.7133 37.9691 32.7133C35.1062 32.7133 32.777 35.3546 32.777 38.6018C32.777 39.3271 32.1908 39.9133 31.4655 39.9133C30.7403 39.9133 30.1541 39.3271 30.1541 38.6018C30.1541 33.9081 33.6596 30.0904 37.9691 30.0904C42.2786 30.0904 45.7842 33.9081 45.7842 38.6018C45.7842 39.3271 45.198 39.9133 44.4727 39.9133Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M37.969 53.7517C35.6976 53.7517 31.8838 52.6462 31.8838 45.2416C31.8838 44.5163 32.4713 43.9301 33.1953 43.9301C33.9205 43.9301 34.5067 44.5163 34.5067 45.2416C34.5067 51.1288 37.1126 51.1288 37.969 51.1288C38.8254 51.1288 41.4313 51.1288 41.4313 45.2416C41.4313 44.5163 42.0176 43.9301 42.7428 43.9301C43.4667 43.9301 44.0543 44.5163 44.0543 45.2416C44.0543 52.6462 40.2405 53.7517 37.969 53.7517Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M66.2299 50.751H56.4607C55.7355 50.751 55.1492 50.1647 55.1492 49.4395C55.1492 48.7142 55.7355 48.128 56.4607 48.128H66.2299C68.9066 48.128 71.0876 46.2264 71.1309 43.8736L69.0706 26.4821C69.064 26.431 69.0614 26.3785 69.0614 26.3273C69.0614 23.9418 66.8607 22.0008 64.1578 22.0008H49.8338C47.1309 22.0008 44.9315 23.9418 44.9315 26.3273C44.9315 27.0526 44.3453 27.6388 43.6201 27.6388C42.8948 27.6388 42.3086 27.0526 42.3086 26.3273C42.3086 22.4952 45.6843 19.3778 49.8338 19.3778H64.1578C68.2784 19.3778 71.6358 22.4519 71.6843 26.2447L73.746 43.6467C73.7525 43.6978 73.7551 43.7503 73.7551 43.8014C73.7551 47.6336 70.3794 50.751 66.2299 50.751Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M64.7838 21.0955C64.0585 21.0955 63.4723 20.5092 63.4723 19.784C63.4723 15.7538 60.5661 12.4738 56.9962 12.4738C53.4251 12.4738 50.5202 15.7538 50.5202 19.784C50.5202 20.5092 49.9339 21.0955 49.2087 21.0955C48.4834 21.0955 47.8972 20.5092 47.8972 19.784C47.8972 14.306 51.9785 9.85088 56.9962 9.85088C62.0139 9.85088 66.0952 14.306 66.0952 19.784C66.0952 20.5092 65.509 21.0955 64.7838 21.0955Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M56.9959 37.6682C54.3716 37.6682 49.969 36.3777 49.969 27.7351C49.969 27.0098 50.5552 26.4236 51.2805 26.4236C52.0044 26.4236 52.5919 27.0098 52.5919 27.7351C52.5919 35.0452 55.906 35.0452 56.9959 35.0452C58.0857 35.0452 61.4011 35.0452 61.4011 27.7351C61.4011 27.0098 61.9887 26.4236 62.7126 26.4236C63.4378 26.4236 64.0241 27.0098 64.0241 27.7351C64.0241 36.3777 59.6215 37.6682 56.9959 37.6682Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M29.5789 21.5975C29.2549 21.5975 28.931 21.4782 28.6779 21.2395L18.6897 11.7851C18.1638 11.2867 18.1415 10.4565 18.6386 9.93063C19.1395 9.4021 19.9671 9.38243 20.493 9.87817L30.4799 19.3326C31.0071 19.831 31.0281 20.6611 30.5323 21.1883C30.2727 21.4611 29.9264 21.5975 29.5789 21.5975Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M23.4173 33.3573h22.7944C12.0705 33.3573 11.4829 32.771 11.4829 32.0458C11.4829 31.3205 12.0705 30.7343 12.7944 30.7343H23.4173C24.1426 30.7343 24.7288 31.3205 24.7288 32.0458C24.7288 32.771 24.1426 33.3573 23.4173 33.3573Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M40.3603 15.669C39.6351 15.669 39.0488 15.0828 39.0488 14.3575V7.72538C39.0488 7.00144 39.6351 6.4139 40.3603 6.4139C41.0856 6.4139 41.6718 7.00144 41.6718 7.72538V14.3575C41.6718 15.0828 41.0856 15.669 40.3603 15.669Z' fill='%236542BE'/%3E%3C/svg%3E"
+                        />
+                        <div>
+                            <h3 style="
+              text-transform: unset;
+              font-family: Sharp Grotesk Medium;
+              color: #1a0826;
+              letter-spacing: 0.3px;
+              margin: 0 0 8px 0;
+            ">
+                                Navega y compra
+                            </h3>
+                            <p style="
+              font-family: Sharp Grotesk Book;
+              color: #1a0826;
+              letter-spacing: 0.4px;
+              line-height: 21px;
+              margin: 0;
+              font-size: 14px;
+            ">
+                                Al finalizar la compra selecciona Zip como tu forma de pago.
+                            </p>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-12">
+                    <div style="display: flex; margin-bottom: 24px">
+                        <img alt="" src="data:image/svg+xml,%3Csvg width='81' height='80' viewBox='0 0 81 80' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M56.5802 43.971C48.4972 43.971 42.2076 36.1105 44.9003 27.6031C46.4961 22.5639 51.3129 19.2537 56.5802 19.2537V12.4567C56.5802 10.616 55.0937 9.12291 53.2598 9.12291H29.9857C28.1509 9.12291 26.6643 10.616 26.6643 12.4567V57.3725C26.6643 60.5769 29.2527 63.175 32.4442 63.175H53.2598C55.0937 63.175 56.5802 61.6829 56.5802 59.8412V43.971Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M56.584 60.8262H33.3088C30.9359 60.8262 29.0046 58.8877 29.0046 56.5048V9.12034C29.0046 6.73848 30.9359 4.8 33.3088 4.8H56.584C58.9569 4.8 60.8882 6.73848 60.8882 9.12034V15.2962C60.8882 15.8413 60.4484 16.2837 59.9044 16.2837C59.3603 16.2837 58.9205 15.8413 58.9205 15.2962V9.12034C58.9205 7.82671 57.8728 6.77502 56.584 6.77502H33.3088C32.02 6.77502 30.9723 7.82671 30.9723 9.12034V56.5048C30.9723 57.7995 32.02 58.8512 33.3088 58.8512H56.584C57.8728 58.8512 58.9205 57.7995 58.9205 56.5048V48.6611C58.9205 48.115 59.3603 47.6736 59.9044 47.6736C60.4484 47.6736 60.8882 48.115 60.8882 48.6611V56.5048C60.8882 58.8877 58.9569 60.8262 56.584 60.8262Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M49.434 56.3216H40.4587C39.9146 56.3216 39.4749 55.8801 39.4749 55.334C39.4749 54.788 39.9146 54.3465 40.4587 54.3465H49.434C49.9781 54.3465 50.4178 54.788 50.4178 55.334C50.4178 55.8801 49.9781 56.3216 49.434 56.3216Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M17.5224 47.9808h23.2448C12.7017 47.9808 12.261 47.5394 12.261 46.9933C12.261 46.4472 12.7017 46.0058 13.2448 46.0058h27.5224C18.0665 46.0058 18.5063 46.4472 18.5063 46.9933C18.5063 47.5394 18.0665 47.9808 17.5224 47.9808Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M52.4258 68H48.1481C47.6051 68 47.1643 67.5586 47.1643 67.0125C47.1643 66.4664 47.6051 66.025 48.1481 66.025H52.4258C52.9698 66.025 53.4096 66.4664 53.4096 67.0125C53.4096 67.5586 52.9698 68 52.4258 68Z' fill='%23EDE6FF'/%3E%3Cmask id='mask0' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='10' y='49' width='7' height='3'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.6001 49.3416h26.8441V51.3166h20.6001V49.3416Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15.8603 51.3166h21.5837C11.0406 51.3166 10.5999 50.8752 10.5999 50.3291C10.5999 49.783 11.0406 49.3416 11.5837 49.3416h25.8603C16.4044 49.3416 16.8441 49.783 16.8441 50.3291C16.8441 50.8752 16.4044 51.3166 15.8603 51.3166Z' fill='%23EDE6FF'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M56.5801 19.2534C49.7917 19.2534 44.2676 24.7973 44.2676 31.6121C44.2676 38.4269 49.7917 43.9707 56.5801 43.9707C63.3694 43.9707 68.8935 38.4269 68.8935 31.6121C68.8935 24.7973 63.3694 19.2534 56.5801 19.2534ZM56.5802 45.9457C48.7067 45.9457 42.3 39.5161 42.3 31.6121C42.3 23.7091 48.7067 17.2784 56.5802 17.2784C64.4546 17.2784 70.8612 23.7091 70.8612 31.6121C70.8612 39.5161 64.4546 45.9457 56.5802 45.9457Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M54.8182 36.1385C54.5663 36.1385 54.3145 36.0417 54.1226 35.8492L50.5966 32.31C50.2119 31.9238 50.2119 31.2997 50.5966 30.9136C50.9813 30.5275 51.6031 30.5275 51.9877 30.9136L54.8182 33.7547L61.1736 27.3754C61.5583 26.9893 62.1801 26.9893 62.5647 27.3754C62.9494 27.7615 62.9494 28.3856 62.5647 28.7717L55.5137 35.8492C55.3219 36.0417 55.07 36.1385 54.8182 36.1385Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M79.2138 10.6099H77.5826V8.97261C77.5826 8.42652 77.1429 7.98511 76.5988 7.98511C76.0548 7.98511 75.615 8.42652 75.615 8.97261V10.6099H73.9838C73.4398 10.6099 73 11.0513 73 11.5974C73 12.1435 73.4398 12.5849 73.9838 12.5849H75.615V14.2212C75.615 14.7673 76.0548 15.2087 76.5988 15.2087C77.1429 15.2087 77.5826 14.7673 77.5826 14.2212V12.5849H79.2138C79.7578 12.5849 80.1976 12.1435 80.1976 11.5974C80.1976 11.0513 79.7578 10.6099 79.2138 10.6099Z' fill='%23EDE6FF'/%3E%3C/svg%3E%0A"
+                        />
+                        <div>
+                            <h3 style="text-transform: unset; font-family: Sharp Grotesk Medium; color: #1a0826; letter-spacing: 0.3px; margin: 0 0 8px 0;">
+                                Tu compra en segundos
+                            </h3>
+                            <p style="
+              font-family: Sharp Grotesk Book;
+              color: #1a0826;
+              letter-spacing: 0.4px;
+              line-height: 21px;
+              margin: 0;
+              font-size: 14px;
+            ">
+                                Un formulario sencillo sin impacto en tu historial crediticio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div style="display: flex; margin-bottom: 24px">
+                        <img alt="" src="data:image/svg+xml,%3Csvg width='81' height='80' viewBox='0 0 81 80' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M63.6694 57.1696H26.3309C23.1832 57.1696 20.6309 54.6184 20.6309 51.4695V20.4474C20.6309 18.6349 22.1008 17.1639 23.9143 17.1639H63.6694C65.4818 17.1639 66.9528 18.6349 66.9528 20.4474V53.8862C66.9528 55.6997 65.4818 57.1696 63.6694 57.1696Z' fill='%23EDE6FF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M14.302 45.9287H9.54322C8.93906 45.9287 8.44873 45.4394 8.44873 44.8342C8.44873 44.229 8.93906 43.7397 9.54322 43.7397h24.302C14.9073 43.7397 15.3965 44.229 15.3965 44.8342C15.3965 45.4394 14.9073 45.9287 14.302 45.9287Z' fill='%23EDE6FF'/%3E%3Cmask id='mask0' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='47' y='65' width='8' height='4'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M47.2783 65.9276H54.2261V68.1162H47.2783V65.9276Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask0)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M53.1316 68.1166H48.3728C47.7687 68.1166 47.2783 67.6273 47.2783 67.0221C47.2783 66.4168 47.7687 65.9276 48.3728 65.9276H53.1316C53.7369 65.9276 54.2261 66.4168 54.2261 67.0221C54.2261 67.6273 53.7369 68.1166 53.1316 68.1166Z' fill='%23EDE6FF'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.4528 49.6258H7.69507C7.09092 49.6258 6.60059 49.1365 6.60059 48.5313C6.60059 47.926 7.09092 47.4368 7.69507 47.4368h22.4528C13.0581 47.4368 13.5473 47.926 13.5473 48.5313C13.5473 49.1365 13.0581 49.6258 12.4528 49.6258Z' fill='%23EDE6FF'/%3E%3Cmask id='mask1' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='72' y='1' width='9' height='9'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M72.0664 1.6H80.0732V9.60617H72.0664V1.6Z' fill='white'/%3E%3C/mask%3E%3Cg mask='url(%23mask1)'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M78.9792 4.50914H77.1645V2.69449C77.1645 2.08923 76.6753 1.6 76.07 1.6C75.4648 1.6 74.9756 2.08923 74.9756 2.69449V4.50914H73.1609C72.5556 4.50914 72.0664 4.99838 72.0664 5.60363C72.0664 6.20888 72.5556 6.69812 73.1609 6.69812H74.9756V8.51168C74.9756 9.11693 75.4648 9.60617 76.07 9.60617C76.6753 9.60617 77.1645 9.11693 77.1645 8.51168V6.69812H78.9792C79.5844 6.69812 80.0737 6.20888 80.0737 5.60363C80.0737 4.99838 79.5844 4.50914 78.9792 4.50914Z' fill='%23EDE6FF'/%3E%3C/g%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M67.3127 52.4315H27.5576C26.3504 52.4315 25.3686 51.4497 25.3686 50.2425V23.8566H58.4681C59.0734 23.8566 59.5626 23.3663 59.5626 22.7621C59.5626 22.1569 59.0734 21.6676 58.4681 21.6676H25.3686V16.8037C25.3686 15.5976 26.3504 14.6148 27.5576 14.6148H33.6605C33.5696 15.0219 33.4536 15.44 33.296 15.8723C33.0881 16.4393 33.3814 17.0675 33.9494 17.2755C34.0731 17.3203 34.199 17.3411 34.3237 17.3411C34.7714 17.3411 35.1895 17.0653 35.3525 16.622C35.6043 15.9325 35.786 15.2616 35.9009 14.6148H43.2624C43.1716 15.0219 43.0566 15.44 42.8979 15.8723C42.6911 16.4393 42.9833 17.0675 43.5513 17.2755C43.675 17.3203 43.802 17.3411 43.9268 17.3411C44.3733 17.3411 44.7925 17.0653 44.9545 16.622C45.2073 15.9325 45.389 15.2616 45.5028 14.6148H52.8654C52.7746 15.0219 52.6586 15.44 52.501 15.8723C52.293 16.4393 52.5863 17.0675 53.1533 17.2755C53.2781 17.3203 53.4039 17.3411 53.5287 17.3411C53.9752 17.3411 54.3944 17.0653 54.5575 16.622C54.8092 15.9325 54.9909 15.2616 55.1058 14.6148H62.4674C62.3765 15.0219 62.2616 15.44 62.1029 15.8723C61.896 16.4393 62.1883 17.0675 62.7563 17.2755C62.88 17.3203 63.0059 17.3411 63.1317 17.3411C63.5783 17.3411 63.9975 17.0653 64.1594 16.622C64.4123 15.9325 64.594 15.2616 64.7078 14.6148H67.3127C68.5199 14.6148 69.5016 15.5976 69.5016 16.8037V21.6676H64.5327C63.9274 21.6676 63.4382 22.1569 63.4382 22.7621C63.4382 23.3663 63.9274 23.8566 64.5327 23.8566H69.5016V50.2425C69.5016 51.4497 68.5199 52.4315 67.3127 52.4315ZM67.3127 12.4258H64.8172C64.7275 11.3521 64.4145 10.3878 63.8552 9.58778C62.9665 8.31927 61.5896 7.62099 59.9774 7.62099C59.3722 7.62099 58.8829 8.11022 58.8829 8.71547C58.8829 9.31963 59.3722 9.80996 59.9774 9.80996C60.8672 9.80996 61.5885 10.1668 62.0613 10.8432C62.3634 11.2744 62.5473 11.8118 62.6217 12.4258H55.2142C55.1245 11.3521 54.8115 10.3878 54.2522 9.58778C53.3645 8.31927 51.9877 7.62099 50.3744 7.62099C49.7702 7.62099 49.2799 8.11022 49.2799 8.71547C49.2799 9.31963 49.7702 9.80996 50.3744 9.80996C51.2653 9.80996 51.9855 10.1668 52.4594 10.8432C52.7604 11.2744 52.9454 11.8118 53.0187 12.4258H45.6123C45.5236 11.3521 45.2095 10.3868 44.6502 9.58669C43.7626 8.31927 42.3868 7.62099 40.7736 7.62099C40.1683 7.62099 39.6791 8.11022 39.6791 8.71547C39.6791 9.31963 40.1683 9.80996 40.7736 9.80996C41.6634 9.80996 42.3836 10.1668 42.8564 10.8421C43.1585 11.2733 43.3434 11.8118 43.4167 12.4258H36.0093C35.9206 11.3521 35.6065 10.3868 35.0483 9.58669C34.1607 8.31927 32.7838 7.62099 31.1716 7.62099C30.5664 7.62099 30.0771 8.11022 30.0771 8.71547C30.0771 9.31963 30.5664 9.80996 31.1716 9.80996C32.0614 9.80996 32.7805 10.1668 33.2544 10.8421C33.5554 11.2733 33.7404 11.8118 33.8148 12.4258H27.5576C25.1432 12.4258 23.1797 14.3893 23.1797 16.8037V50.2425C23.1797 52.6569 25.1432 54.6204 27.5576 54.6204H67.3127C69.7271 54.6204 71.6906 52.6569 71.6906 50.2425V16.8037C71.6906 14.3893 69.7271 12.4258 67.3127 12.4258Z' fill='%236542BE'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M53.4384 33.1112L46.368 40.1816L43.2191 37.0327C42.7912 36.6048 42.0995 36.6048 41.6715 37.0327C41.2436 37.4607 41.2436 38.1524 41.6715 38.5803L45.5942 42.503C45.8076 42.7164 46.0878 42.8236 46.368 42.8236C46.6482 42.8236 46.9284 42.7164 47.1418 42.503L54.986 34.6588C55.4139 34.2308 55.4139 33.5391 54.986 33.1112C54.558 32.6832 53.8663 32.6832 53.4384 33.1112Z' fill='%236542BE'/%3E%3C/svg%3E%0A"
+                        />
+                        <div>
+                            <h3 style="
+              text-transform: unset;
+              font-family: Sharp Grotesk Medium;
+              color: #1a0826;
+              letter-spacing: 0.3px;
+              margin: 0 0 8px 0;
+            ">
+                                ¡Disfruta tus productos!
+                            </h3>
+                            <p style="
+              font-family: Sharp Grotesk Book;
+              color: #1a0826;
+              letter-spacing: 0.4px;
+              line-height: 21px;
+              margin: 0;
+              font-size: 14px;
+            ">
+                                Paga solo el 25% al momento de tu compra y el resto en 3 pagos sin intereses.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </section>
         <!-- END: CONOCE MÁS -->
-
-        <!-- BEGIN: REQUISITOS -->
-        <section>
-            <div class="container requisitos" id="requisitos" data-aos="fade-up" data-aos-delay="300">
-                <div class="row">
-                    <div class="col-lg-12 col-12">
-                        <h2>¿Qué necesito para pagar con Zip?</h2>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <ul>
-                            <li>Tener 18 años o más</li>
-                            <li>Contar con domicilio en México</li>
-                            <li>Tener una tarjeta de débito o crédito</li>
-                            <li>Historial de crédito sano</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <img src="img/requisitos-zip.svg">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END: REQUISITOS -->
         <!-- BEGIN:FAQ -->
-        <section data-aos="fade-up" data-aos-delay="500">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="text-center">Preguntas frecuentes</h2>
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="faqs">
-                            <div class="col-lg-6 col-12">
-                                <div class="optionFaq">
-                                    <h4>Tu información está segura</h4>
-                                    <div class="toggle">
-                                        <p>Tu información es procesada con conexiones seguras de acuerdo a los últimos estándares de seguridad y tecnología</p>
-                                    </div>
-                                </div>
-                                <div class="optionFaq">
-                                    <h4>¿Qué pasa si cancelo o regreso mi orden?</h4>
-                                    <div class="toggle">
-                                        <p>Tu información es procesada con conexiones seguras de acuerdo a los últimos estándares de seguridad y tecnología</p>
-                                    </div>
-                                </div>
-                                <div class="optionFaq">
-                                    <h4>¿Revisarán mi historial de crédito?</h4>
-                                    <div class="toggle">
-                                        <p class="destacado">Sí</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section class="faq zip-landing-page padX-3" style="position: relative; margin: 0 auto; margin-bottom: 30px" data-aos="fade-up" data-aos-delay="300">
+            <h2 style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.4px;
+        margin: 0 0 16px 0;
+      ">
+                Preguntas Frecuentes
+            </h2>
+            <h3 style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      ">
+                ¿Qué es Zip?
+            </h3>
+            <p style="
+        font-family: Sharp Grotesk Book;
+        color: #655368;
+        letter-spacing: 0.3px;
+      ">
+                Zip es un método de pago que da la opción a los usuarios de dividir sus compras en 4 sencillos pagos que se cargan automáticamente cada dos semanas a su tarjeta de crédito o débito.
 
-                </div>
-            </div>
-        </section>
+            </p>
+            <h3 style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      ">
+                ¿Zip tiene comisiones?
+            </h3>
+            <p style="
+        font-family: Sharp Grotesk Book;
+        color: #655368;
+        letter-spacing: 0.3px;
+      ">
+                Zip no tiene intereses y no existen cargos mientras pagues a tiempo.
+                <a href="https://help.us.zip.co/hc/en-us/articles/360020852771-Are-there-any-fees-to-use-Zip-Checkout-?utm_source=shein&amp;utm_medium=referral&amp;utm_campaign=learnzip" style="color: #6542be; text-decoration: none" target="_blank">Conoce más</a
+      >
+    </p>
+    <h3
+      style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      "
+    >
+      ¿Cómo administro mi cuenta Zip?
+    </h3>
+    <p
+      style="
+        font-family: Sharp Grotesk Book;
+        color: #655368;
+        letter-spacing: 0.3px;
+      "
+    >
+      La forma más fácil de administrar tu cuenta en Zip es a tráves de nuestra app, la cual puedes descargar para
+      <a
+        href="https://apps.apple.com/app/id1425045070?mt=8"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >iOS</a
+      >
+      o
+      <a
+        href="https://play.google.com/store/apps/details?id=com.quadpay.quadpay"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >Android</a
+      >
+      , o a tráves de nuestro
+      <a
+        href="https://customer.us.zip.co/en-US/login?utm_source=shein&amp;utm_medium=referral&amp;utm_campagin=learnzip"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >portal para clientes</a
+      >.
+    </p>
+    <h3
+      style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      "
+    >
+      ¿Cómo funcionan los pagos?
+    </h3>
+    <p style="
+        font-family: Sharp Grotesk Book;
+        color: #655368;
+        letter-spacing: 0.3px;
+      "
+    >
+      Tu primer pago por el 25% del valor del pedido se hace al momento de la
+      compra. Los restantes tres pagos se cargarán automáticamente a tu tarjeta
+      cada dos semanas. Antes de su vencimiento, Zip se encarga de recordar a sus clientes la fecha de
+      pago enviando recordatorios vía SMS y correo electrónico.
+    </p>
+    <h3
+      style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      "
+    >
+      ¿Cómo funcionan los reembolsos y las devoluciones?
+    </h3>
+    <p
+      style="
+        font-family: Sharp Grotesk Book;
+        color: #655368;
+        letter-spacing: 0.3px;
+      "
+    >
+      En caso de devolver tus productos, Zip te reembolsa la cantidad pagada a la fecha
+      y cancela los pagos futuros. Para reembolsos parciales primero se reducen o cancelan los pagos programados
+      y después los pagos ya realizados se reembolsan. 
+    </p>
+  </section>
+  <section class="customer-service padX-3" style="
+      position: relative;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      background-color: #ede6ff;
+      text-align: center;
+      margin-top: 50px;
+      padding:3%;
+    "
+  >
+    <h2
+      style="
+        text-transform: unset;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.4px;
+        margin: 0 0 16px 0;
+      "
+    >
+      Atención a cliente
+    </h2>
+    <p
+      style="
+        font-family: Sharp Grotesk Book;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+      "
+    >
+      En caso de alguna otra pregunta, o si quieres ponerte en contacto con nosotros 
+      <a
+        href="https://help.us.zip.co/hc/en-us?utm_source=shein&amp;utm_medium=referral&amp;utm_campagin=learnzip"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >da click aquí</a
+      >.
+    </p>
+    <p style="
+        font-family: Sharp Grotesk Book;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+      "
+    >
+      Conoce aquí nuestros
+      <a href="https://zip.co/us/quadpay-terms-of-service?utm_source=shein&amp;utm_medium=referral&amp;utm_campagin=learnzip"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >Términos y condiciones</a> y nuestra
+                <a href="https://zip.co/us/privacy-policy?utm_source=shein&amp;utm_medium=referral&amp;utm_campagin=learnzip" style="color: #6542be; text-decoration: none" target="_blank">Política de privacidad</a
+      >.
+    </p>
+  </section>
+  <section
+    class="note padX-3"
+    style="position: relative; margin: 0 auto; margin-bottom: 30px"
+  >
+    <h3 style="
+        text-transform: uppercase;
+        font-family: Sharp Grotesk Medium;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+        margin: 20px 0;
+      "
+    >
+      Toma en cuenta
+    </h3>
+    <p
+      style="
+        font-family: Sharp Grotesk Book;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+      "
+    >
+      Que si no tienes saldo suficiente disponible en tu tarjeta o por alguna otra razón no haces tu pago a tiempo, cargos adicionales pueden aplicar. 
+      
+      Da click 
+      <a
+        href="https://help.us.zip.co/hc/en-us/articles/360040937312--What-happens-if-I-don-t-pay-on-time-?utm_source=shein&amp;utm_medium=referral&amp;utm_campaign=learnzip"
+        style="color: #6542be; text-decoration: none"
+        target="_blank"
+        >aquí</a
+      >
+      para más detalles.
+    </p>
+    <p
+      style="
+        font-family: Sharp Grotesk Book;
+        color: #1a0826;
+        letter-spacing: 0.3px;
+      "
+    >
+      Zip no está disponible en compras de tarjetas de regalo. Si estás comprando tarjetas de regalo en conjunto
+      con productos que aplican con Zip, por favor asegúrate de hacer tu compra en dos ordenes separadas. 
+    </p>
+  </section>
         <!-- END:FAQ -->
     </main>
     <footer>
@@ -252,18 +479,48 @@
                             <p class="text-footer">Conoce más</p>
                         </div>
                         <div class="col-lg-4 col-12">
-                            <a href="https://zip.co" class="button cta">Da click aquí</a>
-                        </div>
-                    </div>
+                            <a href="https://zip.co/es-mx" class="button cta">Da click aquí</a>
+                </div>
+                </div>
                 </div>
                 <div class="col-lg-3"></div>
-            </div>
-        </div>
-    </footer>
-    <!-- AOS INITIALIZE -->
-    <script>
-        AOS.init();
-    </script>
+                </div>
+                </div>
+                </footer>
+                <!-- AOS INITIALIZE -->
+                <script>
+                    AOS.init();
+                </script>
+                <!-- jQuery -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <!-- OWL CAROUSEL -->
+                <script src="lib/OwlCarousel/dist/owl.carousel.min.js"></script>
+
+                <script>
+                    $(document).ready(function() {
+                        $(".owl-carousel").owlCarousel({
+                            loop: true,
+                            dots: false,
+                            margin: 10,
+                            responsiveClass: true,
+                            responsive: {
+                                0: {
+                                    items: 1,
+                                    nav: false
+                                },
+                                600: {
+                                    items: 1,
+                                    nav: false
+                                },
+                                1000: {
+                                    items: 3,
+                                    nav: false,
+                                    loop: true
+                                }
+                            }
+                        })
+                    });
+                </script>
 </body>
 
 </html>

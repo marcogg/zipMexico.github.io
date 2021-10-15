@@ -211,6 +211,7 @@ small {
 
 .producto-promocion .product-link {
     text-align: center;
+    max-width: 300px;
 }
 
 .producto-promocion .product-link:hover {

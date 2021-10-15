@@ -211,7 +211,14 @@ small {
 
 .producto-promocion .product-link {
     text-align: center;
-    max-width: 300px;
+    max-width: 400px !important;
+}
+
+@media screen and (max-width:768px) {
+    .producto-promocion .product-link,
+    .owl-item {
+        max-width: 300px !important;
+    }
 }
 
 .producto-promocion .product-link:hover {
